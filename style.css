@@ -1,0 +1,124 @@
+
+*{
+    margin: 0;
+    box-sizing: 0;
+    box-sizing: 0;
+    padding: 0; 
+}
+
+body{
+    font: 1.6rem;
+    display: flex;
+    width: 92rem;
+  text-align: center;
+  height: 50rem;
+  justify-content: center;
+  padding-left: 400px;
+  padding-top: 200px;
+  background-color: var(--off-white);
+ font-size: 1.5rem;
+ line-height: 2.5rem;
+ 
+} 
+
+section {
+
+    padding: 3rem;
+
+}
+
+
+
+
+:root { 
+ --green: #006971;
+ --orange: #E28625;
+ --dark-green: #004140 ;
+--off-white: #f2f2f2;
+--white: #FFF;
+ font: 62,5%;
+
+}
+
+.sedans {
+
+ background-color: var(--orange);
+border-radius: 10px 0px 0px 10px;
+
+}
+
+.suvs {
+
+    background-color: var(--green);
+    
+}
+
+.luxury { 
+    border-radius: 0px 10px 10px 0px;
+background-color: var(--dark-green);
+
+}
+.main {
+    display: flex;
+}
+
+h2 { 
+    font-family: "Big Shoulders Display", sans-serif;
+    margin-top: 3rem;
+    color: var(--white);
+    text-transform: uppercase;
+}
+p, a {
+    font-family: "Lexend Deca", sans-serif;
+    margin-top: 8.2rem;
+}
+p {
+    color: var(--white);
+}
+h2, p{
+    opacity: 75%;
+}
+
+a {
+    display: block;
+   background-color: var(--off-white);
+    border: solid, var(--off-white);
+font-size: 1.5rem;
+padding-inline: 4.2rem;
+padding-block: 1.2rem;
+border-radius:2.5rem ;
+line-height: 2.5rem;
+text-decoration: none;
+width: fit-content;
+
+
+} 
+.sedans a{
+    color: var(--orange);
+    
+}
+.suvs a{
+    color: var(--green);
+}
+.luxury a{
+    color: var(--dark-green);
+}
+
+.sedans  a:hover{
+
+color: var(--off-white);
+background-color: inherit;
+}
+.suvs a:hover{
+
+    color: var(--off-white);
+    background-color: inherit;
+    }
+
+    .luxury a:hover{
+
+        color: var(--off-white);
+        background-color: inherit;
+        }
+        
+
